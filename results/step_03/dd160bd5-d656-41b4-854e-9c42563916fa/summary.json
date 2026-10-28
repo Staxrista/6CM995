@@ -1,0 +1,110 @@
+[
+  {
+    "sample_count": 1001,
+    "initial_rpm": 900.0,
+    "final_window_mean_rpm": 900.0,
+    "final_window_mean_afr": 14.7,
+    "post_5s_afr_rmse": 0.0,
+    "minimum_rpm": 900.0,
+    "maximum_rpm": 900.0,
+    "final_window_mean_model_torque_nm": 31.309733552923262,
+    "sampled_fuel_used_g": 5.365223395402776,
+    "same_model_equilibrium_rpm": 900.0
+  },
+  {
+    "sample_count": 1001,
+    "initial_rpm": 900.0,
+    "final_window_mean_rpm": 886.2663399050033,
+    "final_window_mean_afr": 13.363636363636607,
+    "post_5s_afr_rmse": 1.3363635740767357,
+    "minimum_rpm": 886.2663399050034,
+    "maximum_rpm": 900.0,
+    "final_window_mean_model_torque_nm": 31.137151290276712,
+    "sampled_fuel_used_g": 5.8713808177508175,
+    "same_model_equilibrium_rpm": 886.2663399049763
+  },
+  {
+    "sample_count": 1001,
+    "initial_rpm": 900.0,
+    "final_window_mean_rpm": 795.2812763863678,
+    "final_window_mean_afr": 16.333333333333517,
+    "post_5s_afr_rmse": 1.6333349238763395,
+    "minimum_rpm": 795.2756252820992,
+    "maximum_rpm": 900.0,
+    "final_window_mean_model_torque_nm": 29.993799261731898,
+    "sampled_fuel_used_g": 4.666321500284489,
+    "same_model_equilibrium_rpm": 795.2812763863947
+  },
+  {
+    "sample_count": 1001,
+    "initial_rpm": 900.0,
+    "final_window_mean_rpm": 1983.7059973311918,
+    "final_window_mean_afr": 14.70000096245869,
+    "post_5s_afr_rmse": 0.8640427490361762,
+    "minimum_rpm": 875.9952046530499,
+    "maximum_rpm": 1983.7066051893682,
+    "final_window_mean_model_torque_nm": 44.92802241156205,
+    "sampled_fuel_used_g": 13.607546871883965,
+    "same_model_equilibrium_rpm": 1983.7075042880506
+  },
+  {
+    "sample_count": 1001,
+    "initial_rpm": 900.0,
+    "final_window_mean_rpm": 1955.2825629363228,
+    "final_window_mean_afr": 13.363636527855855,
+    "post_5s_afr_rmse": 1.3894806105564788,
+    "minimum_rpm": 886.2682863282691,
+    "maximum_rpm": 1955.2826706715857,
+    "final_window_mean_model_torque_nm": 44.570812153337656,
+    "sampled_fuel_used_g": 14.955906431469597,
+    "same_model_equilibrium_rpm": 1955.282807858211
+  },
+  {
+    "sample_count": 1001,
+    "initial_rpm": 900.0,
+    "final_window_mean_rpm": 1766.2830308336652,
+    "final_window_mean_afr": 16.33333566591505,
+    "post_5s_afr_rmse": 2.0589379633980114,
+    "minimum_rpm": 748.9066873916177,
+    "maximum_rpm": 1766.2841438745727,
+    "final_window_mean_model_torque_nm": 42.19583559101256,
+    "sampled_fuel_used_g": 11.6267650849433,
+    "same_model_equilibrium_rpm": 1766.285894928381
+  },
+  {
+    "sample_count": 1001,
+    "initial_rpm": 1983.7075042880506,
+    "final_window_mean_rpm": 1555.1059572554827,
+    "final_window_mean_afr": 14.699999987948399,
+    "post_5s_afr_rmse": 0.054623669061440734,
+    "minimum_rpm": 1555.1059525469232,
+    "maximum_rpm": 1983.7075042880506,
+    "final_window_mean_model_torque_nm": 51.54203749624474,
+    "sampled_fuel_used_g": 15.775846263730578,
+    "same_model_equilibrium_rpm": 1555.105947691891
+  },
+  {
+    "sample_count": 1001,
+    "initial_rpm": 1983.7075042880506,
+    "final_window_mean_rpm": 1527.0805688205103,
+    "final_window_mean_afr": 13.363636358932064,
+    "post_5s_afr_rmse": 1.3565550143796716,
+    "minimum_rpm": 1527.0805669008946,
+    "maximum_rpm": 1983.7075042880506,
+    "final_window_mean_model_torque_nm": 51.18986025887586,
+    "sampled_fuel_used_g": 17.2085040790507,
+    "same_model_equilibrium_rpm": 1527.080565077682
+  },
+  {
+    "sample_count": 1001,
+    "initial_rpm": 1983.7075042880506,
+    "final_window_mean_rpm": 1340.9130441827815,
+    "final_window_mean_afr": 16.333333016326105,
+    "post_5s_afr_rmse": 1.606348541611094,
+    "minimum_rpm": 1340.9129487903915,
+    "maximum_rpm": 1983.7075042880506,
+    "final_window_mean_model_torque_nm": 48.85040431703262,
+    "sampled_fuel_used_g": 13.397594237371147,
+    "same_model_equilibrium_rpm": 1340.9128160337737
+  }
+]

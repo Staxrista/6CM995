@@ -1,0 +1,31 @@
+{
+  "schema": "fuel_multiplier_map_v1",
+  "name": "desktop_edited_map",
+  "rpm_axis": [
+    400,
+    3000,
+    7000
+  ],
+  "map_kpa_axis": [
+    5,
+    60,
+    100
+  ],
+  "values": [
+    [
+      1.2,
+      1.1,
+      1.1
+    ],
+    [
+      1.1,
+      1.1,
+      1.1
+    ],
+    [
+      1.1,
+      1.1,
+      1.1
+    ]
+  ]
+}

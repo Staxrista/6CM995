@@ -1,0 +1,31 @@
+{
+  "schema": "fuel_multiplier_map_v1",
+  "name": "fuel_plus_10_percent_at_3000_rpm_60_kpa",
+  "rpm_axis": [
+    800,
+    3000,
+    6000
+  ],
+  "map_kpa_axis": [
+    30,
+    60,
+    100
+  ],
+  "values": [
+    [
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.1,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "rpm": 3000.0,
+  "map_kpa": 60.0,
+  "air_mass_flow_g_s": 20.0,
+  "afr_target": 14.7,
+  "fuel_time_constant_s": 0.2,
+  "duration_s": 10.0,
+  "map_change_time_s": 5.0,
+  "sampling_rate_hz": 50.0,
+  "steady_window_s": 1.0
+}

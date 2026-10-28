@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "automated_tests": 64,
+  "protocol_checks": "Selected-model download, missing-model gating, language/compute/model persistence and selected request options passed against a loopback fixture.",
+  "real_model_turns": [
+    {
+      "model": "qwen3:0.6b-q4_K_M",
+      "language": "en",
+      "compute": "cpu",
+      "context_tokens": 4096,
+      "elapsed_s": 3.25
+    },
+    {
+      "model": "qwen3.5:9b-q4_K_M",
+      "language": "en",
+      "compute": "auto",
+      "context_tokens": 8192,
+      "elapsed_s": 5.09400000000096
+    }
+  ],
+  "tiny_zero_vram_verified": true,
+  "engine_and_maps_preserved": true,
+  "note": "Real inference on the development Ryzen 7700 desktop. This is not a low-end-laptop benchmark or an accuracy assessment."
+}

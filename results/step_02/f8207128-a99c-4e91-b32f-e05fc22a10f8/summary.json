@@ -1,0 +1,38 @@
+[
+  {
+    "sample_count": 1001,
+    "initial_rpm": 900.0,
+    "final_window_mean_rpm": 900.0,
+    "initial_map_kpa": 28.299105527575485,
+    "final_window_mean_map_kpa": 28.299105527575485,
+    "minimum_rpm": 900.0,
+    "maximum_rpm": 900.0,
+    "analytical_equilibrium_rpm": 900.0,
+    "analytical_equilibrium_map_kpa": 28.299105527575485,
+    "last_sample_equilibrium_error_rpm": 0.0
+  },
+  {
+    "sample_count": 1001,
+    "initial_rpm": 900.0,
+    "final_window_mean_rpm": 1983.7071872606598,
+    "initial_map_kpa": 28.299105527575485,
+    "final_window_mean_map_kpa": 40.607897384335224,
+    "minimum_rpm": 900.0,
+    "maximum_rpm": 1983.7073235341575,
+    "analytical_equilibrium_rpm": 1983.7075042880506,
+    "analytical_equilibrium_map_kpa": 40.60789324187814,
+    "last_sample_equilibrium_error_rpm": -0.00018075389311889012
+  },
+  {
+    "sample_count": 1001,
+    "initial_rpm": 1983.7075042880506,
+    "final_window_mean_rpm": 1555.105957308567,
+    "initial_map_kpa": 40.60789324187814,
+    "final_window_mean_map_kpa": 46.58594605149295,
+    "minimum_rpm": 1555.1059525738708,
+    "maximum_rpm": 1983.7075042880506,
+    "analytical_equilibrium_rpm": 1555.105947691891,
+    "analytical_equilibrium_map_kpa": 46.58594622149152,
+    "last_sample_equilibrium_error_rpm": 4.881979748461163e-06
+  }
+]

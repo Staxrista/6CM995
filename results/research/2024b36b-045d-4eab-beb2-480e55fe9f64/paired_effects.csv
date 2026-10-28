@@ -1,0 +1,10 @@
+condition_id,case,operating_scenario,map,reference_condition_id,delta_final_window_mean_rpm,delta_final_window_mean_afr,delta_post_5s_afr_rmse,delta_rpm_settling_time_s
+condition_001,nominal,steady_idle,baseline,condition_001,0.0,0.0,0.0,0.0
+condition_002,nominal,steady_idle,plus10,condition_001,-13.733660094996708,-1.3363636363633926,1.3363635740767357,1.76
+condition_003,nominal,steady_idle,minus10,condition_001,-104.71872361363216,1.6333333333335176,1.6333349238763395,2.54
+condition_004,nominal,throttle_step,baseline,condition_004,0.0,0.0,0.0,0.0
+condition_005,nominal,throttle_step,plus10,condition_004,-28.42343439486899,-1.3363644346028352,0.5254378615203026,-0.6799999999999997
+condition_006,nominal,throttle_step,minus10,condition_004,-217.42296649752666,1.6333347034563612,1.1948952143618352,0.3600000000000012
+condition_007,nominal,load_step,baseline,condition_007,0.0,0.0,0.0,0.0
+condition_008,nominal,load_step,plus10,condition_007,-28.025388434972456,-1.3363636290163345,1.3019313453182308,-0.1399999999999988
+condition_009,nominal,load_step,minus10,condition_007,-214.19291307270123,1.6333330283777059,1.5517248725496533,0.620000000000001

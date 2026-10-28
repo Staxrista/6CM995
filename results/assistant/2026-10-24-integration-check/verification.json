@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "automated_tests": 60,
+  "real_model_turns": 3,
+  "model": "qwen3.5:9b-q4_K_M",
+  "model_digest": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+  "checks": [
+    "live simulation continues",
+    "explanation-only mode",
+    "proposal preview before editor loading",
+    "running and queued maps preserved",
+    "stale editor rejected",
+    "loaded study isolated from live telemetry",
+    "conversation export and snapshot hashes",
+    "request cancellation",
+    "three rendered themes",
+    "responsive Qt event loop",
+    "owned server and runner cleanup"
+  ],
+  "scope": "Integration evidence, not a benchmark of LLM accuracy or tuning quality"
+}

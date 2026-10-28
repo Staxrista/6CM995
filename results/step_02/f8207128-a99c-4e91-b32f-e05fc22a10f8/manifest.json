@@ -1,0 +1,36 @@
+{
+  "experiment_id": "f8207128-a99c-4e91-b32f-e05fc22a10f8",
+  "created_at_utc": "2026-10-23T10:19:02.951550+00:00",
+  "model_version": "0.2.0-air-path-and-speed",
+  "python_version": "3.12.14",
+  "data_origin": "synthetic_simulation",
+  "interface_origin": "batch",
+  "time_basis": "simulation_seconds_not_measured_wall_clock",
+  "random_seed": null,
+  "source_sha256": {
+    "engine_dynamics.py": "e4220b1acb1d2ef9f98acffcaa445073814c0f3a312502dd728cc5302a3f8e54",
+    "run_dynamics.py": "c4353399582da56c06511ebb68395b2f7115e4a185e87f24841f03c2128fd7a2",
+    "ecu_bench.py": "555ef8124fe1c5b3e2f78233a7c60bbc96e7d791802ee61eb5da2174ddc9de35"
+  },
+  "config_sha256": "54684105b1d9d6611a5abd81929d18fa43e2ff442b3150d82e9f868e4c688828",
+  "runs": [
+    {
+      "run_id": "4c72847b-12ba-4a12-95d2-ee2aca525b73",
+      "scenario": "steady_idle",
+      "data_file": "scenario_01.csv",
+      "data_sha256": "b12c57c8c90edb9f6f55aea370a4df3f17dc543d7ce12192b99d7721ed57ee49"
+    },
+    {
+      "run_id": "3395dfcd-65ef-4a4a-a3c1-a39f3974e1e4",
+      "scenario": "throttle_step",
+      "data_file": "scenario_02.csv",
+      "data_sha256": "b329f4826ba131a358b7765e08aa38ef2ce3da26b13bb81e62a0db3d7ffa3a1d"
+    },
+    {
+      "run_id": "f5110dc7-51c8-48dd-9a64-971f7dacb831",
+      "scenario": "load_step",
+      "data_file": "scenario_03.csv",
+      "data_sha256": "73aa62cc5afd974ccb91be35c0e66f4aa58a24b065055fa388a2e685b75233b3"
+    }
+  ]
+}

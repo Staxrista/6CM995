@@ -1,0 +1,18 @@
+{
+  "sample_count": 1001,
+  "initial_rpm": 900.0,
+  "final_window_mean_rpm": 1966.04380801268,
+  "final_window_mean_afr": 14.848485882457963,
+  "post_5s_afr_rmse": 0.9163895366609112,
+  "minimum_rpm": 865.2973428506601,
+  "maximum_rpm": 1966.0444457689007,
+  "final_window_mean_model_torque_nm": 44.706074623056836,
+  "sampled_fuel_used_g": 13.419178671945689,
+  "same_model_equilibrium_rpm": 1966.0453935055793,
+  "rpm_settling_time_s": 4.460000000000001,
+  "rpm_overshoot_percent": 0.0,
+  "rpm_settling_band_rpm": 21.491593846097977,
+  "maximum_absolute_afr_error": 6.593125424407493,
+  "minimum_afr": 14.7,
+  "maximum_afr": 21.293125424407492
+}

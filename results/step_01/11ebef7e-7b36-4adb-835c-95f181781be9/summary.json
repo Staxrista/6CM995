@@ -1,0 +1,18 @@
+{
+  "baseline": {
+    "sample_count": 501,
+    "final_window_sample_count": 51,
+    "post_change_afr_rmse": 1.7763568394002505e-15,
+    "final_window_mean_afr": 14.700000000000001,
+    "final_window_signed_afr_error": 1.7763568394002505e-15,
+    "analytical_steady_state_afr": 14.7
+  },
+  "candidate": {
+    "sample_count": 501,
+    "final_window_sample_count": 51,
+    "post_change_afr_rmse": 1.2961680845798902,
+    "final_window_mean_afr": 13.363636364149164,
+    "final_window_signed_afr_error": -1.3363636358508355,
+    "analytical_steady_state_afr": 13.363636363636362
+  }
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "operating_scenario": "steady_idle",
+    "map": "baseline",
+    "tested_case_count": 7,
+    "final_window_mean_rpm_min": 795.2812763863677,
+    "final_window_mean_rpm_max": 900.0,
+    "final_window_mean_afr_min": 13.36363636363661,
+    "final_window_mean_afr_max": 16.333333333333524,
+    "post_5s_afr_rmse_min": 0.0,
+    "post_5s_afr_rmse_max": 1.6333349238763433
+  },
+  {
+    "operating_scenario": "steady_idle",
+    "map": "plus10",
+    "tested_case_count": 7,
+    "final_window_mean_rpm_min": 850.548038111236,
+    "final_window_mean_rpm_max": 900.0,
+    "final_window_mean_afr_min": 12.148760330578716,
+    "final_window_mean_afr_max": 14.848484848484613,
+    "post_5s_afr_rmse_min": 0.14848490996126346,
+    "post_5s_afr_rmse_max": 2.5512394705188903
+  },
+  {
+    "operating_scenario": "steady_idle",
+    "map": "minus10",
+    "tested_case_count": 7,
+    "final_window_mean_rpm_min": 654.9218778735403,
+    "final_window_mean_rpm_max": 891.4649344144177,
+    "final_window_mean_afr_min": 14.84848484848461,
+    "final_window_mean_afr_max": 18.148148148147904,
+    "post_5s_afr_rmse_min": 0.14848490996126168,
+    "post_5s_afr_rmse_max": 3.448162006366377
+  },
+  {
+    "operating_scenario": "throttle_step",
+    "map": "baseline",
+    "tested_case_count": 7,
+    "final_window_mean_rpm_min": 1766.283030833665,
+    "final_window_mean_rpm_max": 1983.7068425908087,
+    "final_window_mean_afr_min": 13.363636527855856,
+    "final_window_mean_afr_max": 16.333335665915058,
+    "post_5s_afr_rmse_min": 0.5334752234607695,
+    "post_5s_afr_rmse_max": 2.058937963398013
+  },
+  {
+    "operating_scenario": "throttle_step",
+    "map": "plus10",
+    "tested_case_count": 7,
+    "final_window_mean_rpm_min": 1881.2336360756808,
+    "final_window_mean_rpm_max": 1983.7071316166505,
+    "final_window_mean_afr_min": 12.14876041831834,
+    "final_window_mean_afr_max": 14.848485882457961,
+    "post_5s_afr_rmse_min": 0.9163895366609112,
+    "post_5s_afr_rmse_max": 2.4871155340125726
+  },
+  {
+    "operating_scenario": "throttle_step",
+    "map": "minus10",
+    "tested_case_count": 7,
+    "final_window_mean_rpm_min": 1471.983813539436,
+    "final_window_mean_rpm_max": 1966.04380801268,
+    "final_window_mean_afr_min": 14.848485882457963,
+    "final_window_mean_afr_max": 18.148156691530268,
+    "post_5s_afr_rmse_min": 0.9163895366609112,
+    "post_5s_afr_rmse_max": 3.803520716946676
+  },
+  {
+    "operating_scenario": "load_step",
+    "map": "baseline",
+    "tested_case_count": 7,
+    "final_window_mean_rpm_min": 1340.9130441827815,
+    "final_window_mean_rpm_max": 1555.105957308567,
+    "final_window_mean_afr_min": 13.363636358932064,
+    "final_window_mean_afr_max": 16.333333016326105,
+    "post_5s_afr_rmse_min": 0.028921158946611257,
+    "post_5s_afr_rmse_max": 1.606348541611096
+  },
+  {
+    "operating_scenario": "load_step",
+    "map": "plus10",
+    "tested_case_count": 7,
+    "final_window_mean_rpm_min": 1454.102858625243,
+    "final_window_mean_rpm_max": 1555.105957308567,
+    "final_window_mean_afr_min": 12.148760328731782,
+    "final_window_mean_afr_max": 14.848484753577157,
+    "post_5s_afr_rmse_min": 0.13654997145599457,
+    "post_5s_afr_rmse_max": 2.570465372527167
+  },
+  {
+    "operating_scenario": "load_step",
+    "map": "minus10",
+    "tested_case_count": 7,
+    "final_window_mean_rpm_min": 1051.728911112413,
+    "final_window_mean_rpm_max": 1537.6912826566333,
+    "final_window_mean_afr_min": 14.848484753577159,
+    "final_window_mean_afr_max": 18.148145631332333,
+    "post_5s_afr_rmse_min": 0.1365499714559946,
+    "post_5s_afr_rmse_max": 3.4062113530730747
+  }
+]

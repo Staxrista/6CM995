@@ -1,0 +1,27 @@
+{
+  "experiment_id": "b2a981d3-831c-496f-8b5a-ede239f84194",
+  "created_at_utc": "2026-10-24T07:58:59.851221+00:00",
+  "model_version": "0.3.0-fuel-map-coupling",
+  "python_version": "3.12.14",
+  "data_origin": "synthetic_simulation",
+  "interface_origin": "desktop",
+  "time_basis": "simulation_seconds_not_measured_wall_clock",
+  "random_seed": null,
+  "source_sha256": {
+    "ecu_bench.py": "555ef8124fe1c5b3e2f78233a7c60bbc96e7d791802ee61eb5da2174ddc9de35",
+    "engine_dynamics.py": "e4220b1acb1d2ef9f98acffcaa445073814c0f3a312502dd728cc5302a3f8e54",
+    "fuel_dynamics.py": "ce5f6ff1761a6a640e4527c046a9afb41ae14cfdc0649dcfd94c444954e62612",
+    "run_fuel_dynamics.py": "4b0aa9c009b494e1be0ec91bcd333efff53e0fae5713efe448352a1cec8723cc"
+  },
+  "config_sha256": "b70a18d12974ee52ef2118724aeb5a06d20b06c5ab8e158f291d1c7b51b279ea",
+  "runs": [
+    {
+      "run_id": "448410e5-4d62-4dd0-b698-06cf78b6603e",
+      "scenario": "manual_bench",
+      "data_file": "scenario_01.csv",
+      "data_sha256": "52b3c9fd51e5e0905a091708b8cd1bbfe65361bf6db9eb85446f2d3f66982439",
+      "fuel_map_file": "map_01.json",
+      "fuel_map_sha256": "7caf613aac0226c05bb06d4abb9c85ee25f1c85f1da5386070802f7acbfde8b4"
+    }
+  ]
+}

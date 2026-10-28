@@ -1,0 +1,37 @@
+{
+  "origin": "synthetic",
+  "time_basis": "simulation time, not wall-clock timestamps",
+  "run_id": "unique run UUID; condition/config association is in manifest.json",
+  "telemetry_units": {
+    "time_s": "simulation s",
+    "throttle_fraction": "0..1",
+    "external_load_nm": "Nm",
+    "rpm": "rev/min",
+    "map_kpa": "kPa absolute",
+    "throttle_air_g_s": "g/s",
+    "cylinder_air_g_s": "g/s",
+    "model_indicated_torque_nm": "model Nm",
+    "model_friction_torque_nm": "model Nm",
+    "net_torque_nm": "model Nm",
+    "manifold_air_mass_g": "g",
+    "pressure_rate_kpa_s": "kPa/s",
+    "speed_rate_rpm_s": "RPM/s",
+    "ecu_estimated_air_g_s": "g/s",
+    "fuel_multiplier": "dimensionless",
+    "fuel_command_g_s": "g/s",
+    "fuel_delivered_g_s": "g/s",
+    "fuel_rate_g_s2": "g/s^2",
+    "afr": "g air/g fuel",
+    "afr_target": "g air/g fuel",
+    "lambda": "AFR/reference AFR",
+    "assumed_mixture_efficiency": "dimensionless assumed multiplier"
+  },
+  "metric_definitions": {
+    "post_5s_afr_rmse": "AFR RMSE over [5 s,end]; final sample if shorter than 5 s",
+    "final_window_mean_rpm": "Mean RPM over last simulated second including endpoints",
+    "final_window_mean_afr": "Mean AFR over last simulated second including endpoints",
+    "rpm_settling_time_s": "Time after final input change satisfying stored band with at least 1 s confirmation; null if not observed",
+    "sampled_fuel_used_g": "Trapezoidal integration of reported model fuel mass flow",
+    "sensitivity_ranges": "Min/max over tested deterministic cases; not confidence intervals"
+  }
+}

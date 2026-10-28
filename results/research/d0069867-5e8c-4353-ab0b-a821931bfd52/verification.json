@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "archive": "C:\\Users\\Chris\\OneDrive\\Documents\\ChatGPT\\ptuxiaki\\results\\research\\d0069867-5e8c-4353-ab0b-a821931bfd52",
+  "independent_archived_cli_replay": "C:\\Users\\Chris\\OneDrive\\Documents\\ChatGPT\\ptuxiaki\\tmp\\research_replay\\0a0a8ebd-2c8a-4f22-bf0a-6447a18849b9",
+  "matching_condition_traces": 63,
+  "matching_metric_records": 63,
+  "matching_regenerated_pngs": 3,
+  "source_config_data_map_hashes_checked": true,
+  "replay_checks_matched": true,
+  "note": "Numerical reproducibility and archive integrity; not independent engine validation."
+}

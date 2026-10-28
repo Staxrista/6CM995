@@ -1,0 +1,91 @@
+{
+  "experiment_id": "dd160bd5-d656-41b4-854e-9c42563916fa",
+  "created_at_utc": "2026-10-23T18:55:16.806899+00:00",
+  "model_version": "0.3.0-fuel-map-coupling",
+  "python_version": "3.12.14",
+  "data_origin": "synthetic_simulation",
+  "interface_origin": "batch",
+  "time_basis": "simulation_seconds_not_measured_wall_clock",
+  "random_seed": null,
+  "source_sha256": {
+    "ecu_bench.py": "555ef8124fe1c5b3e2f78233a7c60bbc96e7d791802ee61eb5da2174ddc9de35",
+    "engine_dynamics.py": "e4220b1acb1d2ef9f98acffcaa445073814c0f3a312502dd728cc5302a3f8e54",
+    "fuel_dynamics.py": "ce5f6ff1761a6a640e4527c046a9afb41ae14cfdc0649dcfd94c444954e62612",
+    "run_fuel_dynamics.py": "4b0aa9c009b494e1be0ec91bcd333efff53e0fae5713efe448352a1cec8723cc"
+  },
+  "config_sha256": "f8f090846ca7275be3944236e2698e678fe1f4f527cb3736dac7e24ab8c97e12",
+  "runs": [
+    {
+      "run_id": "b212e453-339f-4f90-af05-a007a38a7c6c",
+      "scenario": "steady_idle__dynamic_baseline",
+      "data_file": "scenario_01.csv",
+      "data_sha256": "e843ebc4cc0a64818017c8a2e801e9a5a0752164a38f59f7eed464c5bfe95cd4",
+      "fuel_map_file": "map_01.json",
+      "fuel_map_sha256": "7caf613aac0226c05bb06d4abb9c85ee25f1c85f1da5386070802f7acbfde8b4"
+    },
+    {
+      "run_id": "f6a9751c-c45d-4e4e-95f6-57637dbe78c2",
+      "scenario": "steady_idle__dynamic_plus_10_percent",
+      "data_file": "scenario_02.csv",
+      "data_sha256": "0aa76fb63a515be198f01195ffa035f9f7860f906da564c33717aef18ff6faee",
+      "fuel_map_file": "map_02.json",
+      "fuel_map_sha256": "2d9f533226df032a6b0eb594430f96fc2bd382024af35874fdbac084d71f3fa9"
+    },
+    {
+      "run_id": "1d88506f-5257-4ae0-81f6-3a911cf1c750",
+      "scenario": "steady_idle__dynamic_minus_10_percent",
+      "data_file": "scenario_03.csv",
+      "data_sha256": "831b9405b79f8a8d34de5c2326e65da4394fb6f8dc21d2fa320c2867000f31e4",
+      "fuel_map_file": "map_03.json",
+      "fuel_map_sha256": "15c243ef8babcf03712d3cefe23f554916624fe4515e28bbcf85a66f95046e63"
+    },
+    {
+      "run_id": "4726c09c-bea8-4ec6-ba8c-93dcd48cd407",
+      "scenario": "throttle_step__dynamic_baseline",
+      "data_file": "scenario_04.csv",
+      "data_sha256": "89041757ff791188f1b7516e4a4c642ba93ce26823801fdbe53c027162044714",
+      "fuel_map_file": "map_04.json",
+      "fuel_map_sha256": "7caf613aac0226c05bb06d4abb9c85ee25f1c85f1da5386070802f7acbfde8b4"
+    },
+    {
+      "run_id": "e78026ef-cd10-4901-9327-4f0df1092840",
+      "scenario": "throttle_step__dynamic_plus_10_percent",
+      "data_file": "scenario_05.csv",
+      "data_sha256": "5eb937989ce6970c21549cfa7257ee7be037d272614613c87e19eda2f3cdaa7a",
+      "fuel_map_file": "map_05.json",
+      "fuel_map_sha256": "2d9f533226df032a6b0eb594430f96fc2bd382024af35874fdbac084d71f3fa9"
+    },
+    {
+      "run_id": "96fe389c-43c4-486b-81ed-69deb8a17082",
+      "scenario": "throttle_step__dynamic_minus_10_percent",
+      "data_file": "scenario_06.csv",
+      "data_sha256": "9bd68a9f68847d62d076bc9b50ba2782fb24bd42e6f69f9e5f193ccfa99068ba",
+      "fuel_map_file": "map_06.json",
+      "fuel_map_sha256": "15c243ef8babcf03712d3cefe23f554916624fe4515e28bbcf85a66f95046e63"
+    },
+    {
+      "run_id": "edc30b28-6c16-43fa-aa17-5ba44637699c",
+      "scenario": "load_step__dynamic_baseline",
+      "data_file": "scenario_07.csv",
+      "data_sha256": "c15152a3f2f98f9a491a81278776c5b2d293372e724674b0f82b2df0804d22b2",
+      "fuel_map_file": "map_07.json",
+      "fuel_map_sha256": "7caf613aac0226c05bb06d4abb9c85ee25f1c85f1da5386070802f7acbfde8b4"
+    },
+    {
+      "run_id": "f2c30687-42da-4214-86e9-1dc80917fbf0",
+      "scenario": "load_step__dynamic_plus_10_percent",
+      "data_file": "scenario_08.csv",
+      "data_sha256": "965cb18b756fb1c37b44816cee7f928b83ca52942a7a7938eedd33400357210c",
+      "fuel_map_file": "map_08.json",
+      "fuel_map_sha256": "2d9f533226df032a6b0eb594430f96fc2bd382024af35874fdbac084d71f3fa9"
+    },
+    {
+      "run_id": "017504c4-e9f7-4fc1-9d3b-fd6b5011fccd",
+      "scenario": "load_step__dynamic_minus_10_percent",
+      "data_file": "scenario_09.csv",
+      "data_sha256": "64f15e9b18c59f856e8a5309f468221e7ebe6b4694b35cf7dc2e18968b8aa123",
+      "fuel_map_file": "map_09.json",
+      "fuel_map_sha256": "15c243ef8babcf03712d3cefe23f554916624fe4515e28bbcf85a66f95046e63"
+    }
+  ]
+}

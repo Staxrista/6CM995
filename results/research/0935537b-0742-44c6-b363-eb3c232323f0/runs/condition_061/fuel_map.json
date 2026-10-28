@@ -1,0 +1,31 @@
+{
+  "schema": "fuel_multiplier_map_v1",
+  "name": "dynamic_baseline",
+  "rpm_axis": [
+    400,
+    3000,
+    7000
+  ],
+  "map_kpa_axis": [
+    5,
+    60,
+    100
+  ],
+  "values": [
+    [
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0
+    ]
+  ]
+}

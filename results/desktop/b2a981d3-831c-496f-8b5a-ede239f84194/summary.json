@@ -1,0 +1,14 @@
+[
+  {
+    "sample_count": 1501,
+    "initial_rpm": 900.0,
+    "final_window_mean_rpm": 1624.973515527402,
+    "final_window_mean_afr": 14.672724461273377,
+    "post_5s_afr_rmse": 0.3675460172534217,
+    "minimum_rpm": 897.8821014219743,
+    "maximum_rpm": 3604.90353180008,
+    "final_window_mean_model_torque_nm": 84.12328091045912,
+    "sampled_fuel_used_g": 39.66045260320331,
+    "same_model_equilibrium_rpm": 1648.8525487670436
+  }
+]

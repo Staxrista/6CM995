@@ -1,0 +1,31 @@
+{
+  "experiment_id": "11ebef7e-7b36-4adb-835c-95f181781be9",
+  "created_at_utc": "2026-10-23T09:58:37.373068+00:00",
+  "model_version": "0.1.0-fixed-operating-point",
+  "model_sha256": "555ef8124fe1c5b3e2f78233a7c60bbc96e7d791802ee61eb5da2174ddc9de35",
+  "protocol_sha256": "96ec6c568a8444ad4b12c1d1693f90ec34a98917e298121d8e2c3c7b35b7c5ed",
+  "scenario": "fixed_operating_point_fuel_map_step",
+  "data_origin": "synthetic_simulation",
+  "time_basis": "simulation_seconds_not_wall_clock",
+  "random_seed": null,
+  "runs": [
+    {
+      "run_id": "30bf64c2-51e2-4363-9411-e40bdd4f5ddc",
+      "condition": "baseline",
+      "map_name": "baseline",
+      "map_file": "baseline_map.json",
+      "map_sha256": "eca9a315f79e5ae40ffa306d4806bda47ca7dba1b51a9e048ce8fd54d34500d6",
+      "data_file": "baseline.csv",
+      "data_sha256": "0b2cc3c6ace9dd737b5d754d3a66f0d9a96efac1c33a7fd7cd6971e8da57ba0d"
+    },
+    {
+      "run_id": "9cebb290-1f7f-4789-984b-f39431cb0577",
+      "condition": "candidate",
+      "map_name": "fuel_plus_10_percent_at_3000_rpm_60_kpa",
+      "map_file": "candidate_map.json",
+      "map_sha256": "8ffee87af2a930b7d7337908d921be2627c3bcc1dd6b2a75bb3dce90086cc151",
+      "data_file": "candidate.csv",
+      "data_sha256": "9165a7fb19987d067626c59c9d9f2d4942bba253ef6a0f43c4e7032f444da07f"
+    }
+  ]
+}

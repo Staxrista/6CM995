@@ -1,0 +1,108 @@
+{
+  "data_origin": "synthetic",
+  "dependencies": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "backend": "Agg"
+  },
+  "plan_sha256": "fa883e10b753fdf879d80adf38c7da9881f01553c44ceabbd5338349487bf71c",
+  "source_sha256": {
+    "research_study.py": "bfb8355b3c651db0e6602f9cea0d246d90bbbd6094f63586c6a69293b16d7f34",
+    "research_figures.py": "2c1bb20cc51e6b88db14bbd4c7b8be77e8e8c71964a9c38785dbe6932b7fc5c9",
+    "ecu_bench.py": "555ef8124fe1c5b3e2f78233a7c60bbc96e7d791802ee61eb5da2174ddc9de35",
+    "engine_dynamics.py": "e4220b1acb1d2ef9f98acffcaa445073814c0f3a312502dd728cc5302a3f8e54",
+    "fuel_dynamics.py": "ce5f6ff1761a6a640e4527c046a9afb41ae14cfdc0649dcfd94c444954e62612",
+    "run_fuel_dynamics.py": "4b0aa9c009b494e1be0ec91bcd333efff53e0fae5713efe448352a1cec8723cc"
+  },
+  "datasets": {
+    "condition_001": {
+      "data_sha256": "b0d7e4a34422c0dffbf7ec3eb5f48fff92240d2733f37a518cb39430482fc32b",
+      "config_sha256": "e2c430bbd2b2d086517acf398749c87a337d67641274fad4e39747a75c93c675"
+    },
+    "condition_002": {
+      "data_sha256": "3ad571b5d9dcc7f8bd80cbb1f07195248f1c2ab1024dc95db42a11bdd97e4574",
+      "config_sha256": "a8e05b8fd3464c9c8a5987f3637eabad22143b66fe5b060a4e565681d0ff5d51"
+    },
+    "condition_003": {
+      "data_sha256": "19051ae5fa2ee342dbbd66983e30a45b5942def21d1b53a37d3b2c771bf22763",
+      "config_sha256": "2c16a13e6311beeee379052d9b488ab1a8a2e7fb09aa7eb84403971d583eff15"
+    },
+    "condition_004": {
+      "data_sha256": "5bd3ba0cde9d6f8cf410906c5fcbfb47ed8725dc324221ef9487b25e14b14fbc",
+      "config_sha256": "a72b611c323d90ce1177c4aa167b7239425b9b5bb61d592356b560a3a3c53454"
+    },
+    "condition_005": {
+      "data_sha256": "4de7310696f832ed8a9e176a98da7662825bd651f1a6fcbd6a9b2a1657109281",
+      "config_sha256": "4711eef7fa04f74b9bf875b2e387726a938c305a9d058f79511b84fb5cae9137"
+    },
+    "condition_006": {
+      "data_sha256": "ed66aa7110d5a16e029b67fca62ccf0c2151e2a924fad6ffd2faaab0564b5e6d",
+      "config_sha256": "a426021df21b879b12b1fa6405c81cf4db04f8eb07308f9c06bb84aa6f22e276"
+    },
+    "condition_007": {
+      "data_sha256": "0fa03e81e27f38ab6d9af72a78c1885101fdc1c1dfae3f0a55bd8b74ced5b170",
+      "config_sha256": "aeaa8e493b108f7261b31f51562cd4f36d72d17ab3a1520f4c57bf65f92e98a0"
+    },
+    "condition_008": {
+      "data_sha256": "8ac99bcbe6d75dc44c79f729452eeec98821b40b7ddc32cca8f912b16f2d909a",
+      "config_sha256": "4bf91f69dc7a9bab5215c9e306e9e30cf51341d76d966cd2aa21ac4ec5f12b84"
+    },
+    "condition_009": {
+      "data_sha256": "1a1a5cfa0725a5e2a43b27fe5c89b1fa887a1ce6f07272498ed582b67d1a193d",
+      "config_sha256": "d240a197ea525a8d710c9cad155b6434743c3e4cf696bba69c41b5f17877913b"
+    }
+  },
+  "figures": [
+    {
+      "name": "nominal_traces",
+      "condition_ids": [
+        "condition_001",
+        "condition_002",
+        "condition_003",
+        "condition_004",
+        "condition_005",
+        "condition_006",
+        "condition_007",
+        "condition_008",
+        "condition_009"
+      ],
+      "caption": "Matched nominal conditions; dashed AFR line is the stored target of 14.7.",
+      "png_sha256": "048c07b095c643dc93bbda12a051d65a24fcfdb4033b6229e27750e48b30090a",
+      "pdf_sha256": "1bd2c5fbbb1173ad11cc5ffbb6b1f913a45b1b598ca7a71014069c3b0c7d1599"
+    },
+    {
+      "name": "sensitivity_ranges",
+      "condition_ids": [
+        "condition_001",
+        "condition_002",
+        "condition_003",
+        "condition_004",
+        "condition_005",
+        "condition_006",
+        "condition_007",
+        "condition_008",
+        "condition_009"
+      ],
+      "caption": "Tested parameter ranges only; no probability or confidence interpretation.",
+      "png_sha256": "35bcd569477615593187b8698e0de7883d5abc0d9609a7eb14367eede4a293da",
+      "pdf_sha256": "73da3fee05909acc1d350ebf520d0c773dbc27c01741251ccc5a6c9797234720"
+    },
+    {
+      "name": "ecu_estimate_sweep",
+      "condition_ids": [
+        "condition_001",
+        "condition_002",
+        "condition_003",
+        "condition_004",
+        "condition_005",
+        "condition_006",
+        "condition_007",
+        "condition_008",
+        "condition_009"
+      ],
+      "caption": "Plant efficiency remains fixed; ECU estimate changes. A nominal-only pilot has one estimate.",
+      "png_sha256": "475d7adacd53534e6a43894774c12a2c3e247c8313792cd4735b33a63bdadea0",
+      "pdf_sha256": "6d80f7a1ff6ae1b3cef97c1a73dd6feb335674071d8e9b5f84ee0348a6be7f61"
+    }
+  ]
+}
